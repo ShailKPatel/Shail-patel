@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c,d;
+    const char* n="The largest number :";
+    cout<<"Enter 4 numbers : \n";
+    cin>>a>>b>>c>>d;
+    while(a==b && b==c && c==d){
+        cout<<"They are equal";
+        break;
+    }
+    while(a>b && a>c && a>d){
+        cout<<n<<a;
+        break;
+    }
+    while(b>a && b>c && b>d){
+        cout<<n<<b;
+        break;
+    }
+    while(c>a && c>b && c>d){
+        cout<<n<<c;
+        break;
+    }
+    while(d>a && d>b && c<d){
+        cout<<n<<d;
+        break;
+    }
+
+
+
+    return 0;
+}
