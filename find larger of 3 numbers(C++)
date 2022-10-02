@@ -1,26 +1,31 @@
 #include<iostream>
 using namespace std;
 int main(){
+    const char* n=" is larger";
+    
     int x,y,z;
+
     cout<<"Enter three number:"<<endl;
+
+
     cin>>x>>y>>z;
     if(x==y && y==z){
         cout<<"They are equal"<<endl;
     }
     else if(x>y){
         if(x>z){
-        cout<<x<<" is larger"<<endl;
+        cout<<x<<n<<endl;
         }
         else{
-            cout<<z<<" is larger"<<endl;
+            cout<<z<<n<<endl;
         }
     }
     else{
         if(y>z){
-        cout<<y<<" is larger"<<endl;
+        cout<<y<<n<<endl;
         }
         else{
-            cout<<z<<" is larger"<<endl;
+            cout<<z<<n<<endl;
         }
     }
     return 0;
