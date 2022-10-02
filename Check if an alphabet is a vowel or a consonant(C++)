@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char x;
+    int a;
+    cout<<"Enter a alphabet:"<<endl;
+    cin>>x;
+    a=(x=='a'||x=='A'||x=='e'||x=='E'||x=='i'||x=='I'||x=='o'||x=='O'||x=='u'||x=='U');
+    if(a)
+        cout<<"Its a vowel : "<<x<<endl;
+    
+     else
+        cout<<"Its a conosnant : "<<x<<endl;
+    
+        return 0;
+}
