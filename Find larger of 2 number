@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cout<<"Enter two number:"<<endl;
+    cin>>x>>y;
+    if(x==y){
+        cout<<"They are equal"<<endl;
+    }
+    else if(x>y){
+        cout<<x<<" is larger"<<endl;
+    }
+    else{
+        cout<<y<<" is larger"<<endl;
+    }
+    return 0;
+}
