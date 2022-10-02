@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+     float a,b,c;
+     string n,m;
+     n="Its an ";
+     m=" triangle";
+     cout<<"Enter the sides of triangle(in cm)"<<endl;
+     cin>>a>>b>>c;
+     if(a==b && b==c){
+        cout<<n<<"equilateral"<<m<<endl;
+     }
+     else if(a==b || b==c || a==c){
+        cout<<n<<"iscocellaus"<<m<<endl;
+     }
+     else{
+        cout<<n<<"scalene"<<m<<endl;
+     }
+    return 0;
+}
