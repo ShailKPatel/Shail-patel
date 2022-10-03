@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    char a;
+    int n1,n2;
+    cout<<"Enter 1st number : ";
+    cin>>n1;
+    cout<<"Enter a operator : ";
+    cin>>a;
+    cout<<"Enter 2nd number : ";
+    cin>>n2;
+
+
+    switch(a){
+        case '+':{
+            cout<<"Sum : "<<n1+n2;
+            break;
+
+        }
+        case '-':{
+            cout<<"Difference : "<<n1-n2;
+            break;
+        }
+        case '*':{
+            cout<<"Product : "<<n1*n2;
+            break;
+        }
+        case '/':{
+            cout<<"Ratio : "<<n1/n2;
+            break;
+        }
+        
+        default:{
+             cout<<"Please pick another operator!";
+             break;
+        }
+    }
+
+    return 0;
+}
